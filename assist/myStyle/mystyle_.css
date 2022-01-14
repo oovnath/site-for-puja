@@ -1,0 +1,90 @@
+.nav_section {
+    position: absolute;
+    min-width: 100%;
+}
+
+
+.hero_section{
+    min-height: 50vh;
+    background-color: red;
+    background: linear-gradient(135deg, rgba(0,0,0,1), rgba(0,0,0,0.2)), 
+    url('../../img/sunrise.jpg');
+    background-size: cover;
+}
+.social{
+   /* position: absolute;*/
+    left: 0;
+    top: 0;
+    border-right: 1px solid rgba(128, 128, 128, 0);
+    width:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 60vh;
+    animation: moving 1s ease-in-out forwards;
+}
+.social div{
+    border: 1.0px solid #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+
+@keyframes moving{
+    from{
+        transform: translateX(-200px);
+    }
+    to{
+        transform: translateX(0px);
+        opacity:1;
+    }
+}
+
+.social div a i{
+    color: white;
+}
+
+.social div:hover a i{
+    color: rgb(7, 0, 0);
+    transition: all .15s ease-in-out;
+  }
+  
+.social div:hover {
+    background-color: rgb(255, 255, 255);
+  }
+
+
+  /*hero cta style*/
+
+  
+  .hero_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hero_section .row  .left-sectoion{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hero_section .row  .right-section{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.hero_section .row  .right-section img{
+    width:200px;
+}

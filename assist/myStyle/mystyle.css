@@ -1,0 +1,70 @@
+.head_section{
+
+    margin-bottom:3rem ;
+}
+.head_section .nav_section .navbar .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.nav_section {
+    position: absolute;
+    min-width: 100%;
+    z-index: 9;
+}
+
+
+.hero_section{
+    min-height: 50vh;
+    background-color: red;
+    background: linear-gradient(135deg, rgba(0,0,0,1), rgba(0,0,0,0.2)), 
+    /*url('../../img/sunrise.jpg');
+    background-size: cover;*/
+}
+
+.hero_section .slider_section img{
+    height: 50vh;
+    width: 100%;
+}
+.hero_section .slider_section{
+    position: relative;
+}
+.hero_section .BtnPrevious{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-right: 1px solid rgba(128, 128, 128, 0);
+    width:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 50vh;
+   
+    font-size: 80px;
+    color: beige;
+}
+
+.hero_section .BtnNext{
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left: 1px solid rgba(128, 128, 128, 0);
+    width:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 50vh;
+    font-size: 80px;
+    color: beige;
+    
+}
+
+
+
+
+
+.card_section{
+    margin-top: 2rem;
+}
